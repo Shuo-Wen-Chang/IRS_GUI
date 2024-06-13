@@ -314,12 +314,12 @@ def create_input_interface():
     root.bind('<Return>', lambda event: submit_button.invoke())
 
 #%% 執行
-# 初始化介面
+## 初始化介面
 root = tk.Tk()
 root.title("Interest Rate Swap Cashflow Demonstration")
 root.geometry("800x300")
 
-# 配置輸入框的默認提示文字
+## 配置輸入框的默認提示文字
 label_p = "Position:"
 label_n = "Notional:"
 label_sd = "Start Date:"
@@ -332,6 +332,7 @@ text_d = "ex: 2016/01/03"
 text_t = "ex: 1/3/6/12/24"
 text_f = "ex: 1/2/4/12"
 
+## 執行輸入介面函數
 create_input_interface()
 
 root.mainloop()
