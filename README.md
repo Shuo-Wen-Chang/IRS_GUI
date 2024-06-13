@@ -3,7 +3,7 @@ This is a project directory regarding demonstration of Interest Rate Swap calcul
 
 Wrote a Mandarin article regarding this subject on Medium: [source](https://medium.com/@oscar0936330161/終極-irs-計算酷東西-瞬間掌握現金流與利率期限結構-1e3c6f66c97b)
 
-In total 2 files are available here:
+In total 3 files are available here:
 
 **Demonstration**
 - README.md: Also known as this file, serves as a demonstration of this directory.
