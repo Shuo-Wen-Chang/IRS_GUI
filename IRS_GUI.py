@@ -18,7 +18,7 @@ from scipy.optimize import minimize
 #%% 載入swap curve data
 import pandas as pd
 ## 讀資料
-swap_df = pd.read_csv("/Users/changshuowen/112_2/財務演算法/Final/data/DSWP.csv", parse_dates=['DATE'])
+swap_df = pd.read_csv("./data/DSWP.csv", parse_dates=['DATE'])
 workday = swap_df.DATE
 
 ## 把假日的值用前一工作日的 swap rates 遞補
